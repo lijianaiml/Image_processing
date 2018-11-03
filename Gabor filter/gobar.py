@@ -52,5 +52,5 @@ def getGabor(img, filters):
 if __name__ == '__main__':
     filters = build_filters()
     #image = np.array(Image.open('photo.jpg'))
-    image = cv2.imread('./skin.jpg', 0)
+    image = cv2.imread('./wi.jpg', 0)
     getGabor(image, filters)
